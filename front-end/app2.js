@@ -1,4 +1,4 @@
-var commentApi = "https://share-your-thoughts-backend.onrender.com"
+var commentApi = "https://share-your-thoughts-backend.onrender.com/comments"
 
 start()
 
@@ -162,3 +162,4 @@ function updateCommentTime() {
     })
 
 }
+
