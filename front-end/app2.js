@@ -76,7 +76,7 @@ function handleDeleteComment(id) {
             return response.json()
         })
         .then(function () {
-            var commentItem = document.querySelector(".comment-item" + id)
+            var commentItem = document.querySelector(".comment-item-" + id)
             if (commentItem) {
                 commentItem.remove()
             }
@@ -162,4 +162,5 @@ function updateCommentTime() {
     })
 
 }
+
 
