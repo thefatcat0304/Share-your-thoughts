@@ -1,4 +1,4 @@
-var commentApi = "http://localhost:3000/courses"
+var commentApi = "https://share-your-thoughts-backend.onrender.com"
 
 start()
 
@@ -160,4 +160,5 @@ function updateCommentTime() {
         const timestamp = commentTime.getAttribute("data-timestamp")
         commentTime.textContent = timeAgo(timestamp)
     })
+
 }
